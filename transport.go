@@ -16,14 +16,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/segmentio/kafka-go/protocol"
-	"github.com/segmentio/kafka-go/protocol/apiversions"
-	"github.com/segmentio/kafka-go/protocol/createtopics"
-	"github.com/segmentio/kafka-go/protocol/findcoordinator"
-	meta "github.com/segmentio/kafka-go/protocol/metadata"
-	"github.com/segmentio/kafka-go/protocol/saslauthenticate"
-	"github.com/segmentio/kafka-go/protocol/saslhandshake"
-	"github.com/segmentio/kafka-go/sasl"
+	"github.com/stankud/kafka-go/protocol"
+	"github.com/stankud/kafka-go/protocol/apiversions"
+	"github.com/stankud/kafka-go/protocol/createtopics"
+	"github.com/stankud/kafka-go/protocol/findcoordinator"
+	meta "github.com/stankud/kafka-go/protocol/metadata"
+	"github.com/stankud/kafka-go/protocol/saslauthenticate"
+	"github.com/stankud/kafka-go/protocol/saslhandshake"
+	"github.com/stankud/kafka-go/sasl"
 )
 
 // Request is an interface implemented by types that represent messages sent

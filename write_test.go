@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	ktesting "github.com/segmentio/kafka-go/testing"
+	ktesting "github.com/stankud/kafka-go/testing"
 )
 
 const (
